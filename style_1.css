@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-family:"黑体";
+    font-size: 10px;
+    line-height: 1;
+}
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 0.5;
+}
+span {
+    font-weight: 700;
+}
+.second-title {
+    display: block;
+    padding-bottom:1%;
+}
+#information p:nth-of-type(1),
+#contact p:nth-of-type(1) {
+    float: left;
+    margin-top: 0;
+    width: 30%;
+}
+#information p:nth-of-type(2),
+#contact p:nth-of-type(2) {
+    float: left;
+    margin-top: 0;
+    width: 34%;
+    margin-left: 1%;
+}
+#information p:nth-of-type(3),
+#contact p:nth-of-type(3) {
+    float: right;
+    margin-top: 0;
+    width: 33%;
+}
+#contact,
+div:nth-of-type(3) {
+    clear: both;
+}
